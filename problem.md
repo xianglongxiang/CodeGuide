@@ -14,11 +14,13 @@
 require 写法统一 cmd
 
 变量定义支持：
-    var xx;
-    var xxx;
+```javascript
+    var x;
+    var y;
 
-    var xx,
-        xxx;
+    var x,
+        y;
+```
         
 属性值'0'后面不要加单位； 例外： 0deg， key-frames 0%；
 
