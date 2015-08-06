@@ -1,7 +1,7 @@
 ###团队规范新增项
 + 涉及到类似background-image的url的情况，内容需要加引号 // 双引号
-+ css属性，id命名(驼峰）// class html属性 中划线 id 中划线
-+ 属性顺序，id写到最前面 // id class name 放前面 其他不强制
++ css属性，id命名(驼峰）// class html属性 中划线， id 下划线
++ 属性顺序，id写到最前面 // id class name 按顺序放前面 其他不强制
 + 属性简写，常见的(margin，padding)采用简写，不常见的（animation）采用分开写 // ok
 + extend，import等层级嵌套最多4级（可读性和可维护性考虑）// 去掉 import
 + 单行长度限制，超出80（长度待定），字符串拼接用斜杠写多行字符串 // 120
