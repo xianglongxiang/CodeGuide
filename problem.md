@@ -21,7 +21,7 @@ require 写法统一 cmd
         y;
 ```
         
-属性值'0'后面不要加单位； 例外： 0deg， key-frames 0%；
+属性值'0'后面不要加单位； 例外： 0deg， keyframes 0%；
 
 
 
