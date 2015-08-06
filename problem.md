@@ -9,7 +9,6 @@
 + var变量维护不是一次性的写在前面,一次性的（诸如：for循环中的变量），可以写到具体位置 // ok
 + 匿名函数function和(中间不保留空格 // 统一加空格
 + 对上下文this的引用统一用 self // that _this $this
-+ 
 
 require 写法统一 cmd
 
