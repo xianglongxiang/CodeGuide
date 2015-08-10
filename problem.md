@@ -1,4 +1,13 @@
-###团队规范新增项
+### 与alloyteam讨论遗留项
+1. js中强制一个var是否有必要
+2. css的class 命名里，专门提供给js使用的是否需要加上js-前缀
+3. css属性的是否推荐简写
+4. css不建议用important
+5. html 属性的顺序, id是否放在第一位
+6. 目录命名里去掉复数的s
+7. 项目文件目录结构还待确定
+
+### 团队规范新增项
 + 涉及到类似background-image的url的情况，内容需要加引号 // 双引号
 + css属性，id命名(驼峰）// class html属性 中划线， id 下划线
 + 属性顺序，id写到最前面 // id class name 按顺序放前面 其他不强制
