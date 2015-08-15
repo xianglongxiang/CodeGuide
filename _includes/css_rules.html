@@ -83,6 +83,13 @@
     </div>
 </div>
 
+<div class="section" id="not-use-important">
+    <div class="col">
+        <h3>!important</h3>
+        <p>不允许使用!important。</p>
+    </div>
+</div>
+
 <div class="section" id="css-comments">
     <div class="col">
         <h3>注释</h3>
@@ -111,8 +118,7 @@
     <div class="col">
         <h3>命名</h3>
         <ul>
-            <li>类名使用小写字母，以中划线分隔</li>
-            <li>id采用驼峰式命名</li>
+            <li>使用小写字母，以中划线分隔</li>
             <li>scss中的变量、函数、混合、placeholder采用驼峰式命名</li>
         </ul>
     </div>
@@ -143,23 +149,23 @@
     </div>
 </div>
 
-<div class="section" id="css-shorthand">
-    <div class="col">
-        <h3>属性简写</h3>
-        <p>属性简写需要你非常清楚属性值的正确顺序，而且在大多数情况下并不需要设置属性简写中包含的所有值，所以建议尽量分开声明会更加清晰；</p>
-        <p><code>margin</code> 和 <code>padding</code> 相反，需要使用简写；</p>
-        <p>常见的属性简写包括：</p>
-        <ul>
-            <li><code>font</code></li>
-            <li><code>background</code></li>
-            <li><code>transition</code></li>
-            <li><code>animation</code></li>
-        </ul>
-    </div>
-    <div class="col">
-        {% highlight css %}{% include css/shorthand.css %}{% endhighlight %}
-    </div>
-</div>
+<!--<div class="section" id="css-shorthand">-->
+    <!--<div class="col">-->
+        <!--<h3>属性简写</h3>-->
+        <!--<p>属性简写需要你非常清楚属性值的正确顺序，而且在大多数情况下并不需要设置属性简写中包含的所有值，所以建议尽量分开声明会更加清晰；</p>-->
+        <!--<p><code>margin</code> 和 <code>padding</code> 相反，需要使用简写；</p>-->
+        <!--<p>常见的属性简写包括：</p>-->
+        <!--<ul>-->
+            <!--<li><code>font</code></li>-->
+            <!--<li><code>background</code></li>-->
+            <!--<li><code>transition</code></li>-->
+            <!--<li><code>animation</code></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+    <!--<div class="col">-->
+        <!--{% highlight css %}{% include css/shorthand.css %}{% endhighlight %}-->
+    <!--</div>-->
+<!--</div>-->
 
 <div class="section" id="css-media-queries">
     <div class="col">
@@ -186,7 +192,7 @@
             </ul>
         </div>
         <p><code>@import</code> 引入的文件不需要开头的'_'和结尾的'.scss'；</p>
-        <p>嵌套最多不能超过5层；</p>
+        <p>嵌套最多不能超过4层；</p>
         <p><code>@extend</code> 中使用placeholder选择器；</p>
         <p>去掉不必要的父级引用符号'&'。</p>
     </div>

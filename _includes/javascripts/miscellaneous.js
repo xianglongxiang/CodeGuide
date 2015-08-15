@@ -1,21 +1,38 @@
 // not good
 var a   = 1;
 
-function Person() {
-    // not good
-    var me = this;
-
-    // good
-    var _this = this;
-
-    // good
-    var that = this;
-
-    // good
-    var self = this;
-}
+var ret = a ? b ? 1 : 2 : 3;
 
 // good
+var ret;
+
+if (a) {
+    if (b) {
+        ret = 1;
+    } else {
+        ret = 2;
+    }
+} else {
+    ret = 3;
+}
+
+function Person() {
+    var self = this;
+
+    function a() {
+        var that = this;
+
+        function b() {
+            var _this = this;
+
+            function c() {
+                var me = this;
+
+            }
+        }
+    }
+}
+
 switch (condition) {
     case 1:
     case 2:

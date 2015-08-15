@@ -50,4 +50,6 @@ var a, foo = 7, b,
 // good
 var a,
     foo = 7,
-    b, c, bar = 8;
+    b,
+    c,
+    bar = 8;

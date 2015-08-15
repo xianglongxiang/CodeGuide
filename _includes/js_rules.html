@@ -15,7 +15,11 @@
 <div class="section" id="js-line-max-length">
     <div class="col">
         <h3>单行长度</h3>
-        <p>不要超过80，但如果编辑器开启word wrap可以不考虑单行长度。</p>
+        <p>不要超过120，但如果编辑器开启word wrap可以不考虑单行长度。</p>
+        <p>长字符串拼接用加号。</p>
+    </div>
+    <div class="col">
+        {% highlight javascript %}{% include javascripts/line_max_length.js %}{% endhighlight %}
     </div>
 </div>
 
@@ -99,7 +103,7 @@
         <p>以下几种情况需要换行：</p>
         <ul>
             <li>代码块'{'后和'}'前</li>
-            <li>变量赋值后</li>
+            <li>定义变量后</li>
         </ul>
     </div>
     <div class="col">
@@ -184,7 +188,8 @@
 <div class="section" id="js-variable-declaration">
     <div class="col">
         <h3>变量声明</h3>
-        <p>一个函数作用域中所有的变量声明尽量提到函数首部，用一个var声明，不允许出现两个连续的var声明。</p>
+        <p>一个函数作用域中所有的变量声明提到函数首部，除了for (...)里面使用的一次性变量。</p>
+        <p>var的数量不做限制，但要统一，一行定义一个变量。</p>
     </div>
     <div class="col">
         {% highlight javascript %}{% include javascripts/variable_declaration.js %}{% endhighlight %}
@@ -289,9 +294,10 @@
         <p>不要混用tab和space；</p>
         <p>不要在一处使用多个tab或space；</p>
         <p>换行符统一用'LF'；</p>
-        <p>对上下文this的引用只能使用'_this', 'that', 'self'其中一个来命名；</p>
+        <p>对上下文this的引用命名范围：self > that > _this > me；</p>
         <p>行尾不要有空白字符；</p>
         <p>switch的falling through和no default的情况一定要有注释特别说明；</p>
+        <p>不允许三元运算符嵌套。</p>
         <p>不允许有空的代码块。</p>
     </div>
     <div class="col">
