@@ -131,11 +131,11 @@ linters:
 
   SelectorDepth:
     enabled: false
-    max_depth: 5
+    max_depth: 4
 
   SelectorFormat:
     enabled: true
-    convention: hyphenated_lowercase # or 'strict_BEM', or 'hyphenated_BEM', or 'snake_case', or 'camel_case', or a regex pattern
+    convention: hyphenated_BEM # or 'strict_BEM', or 'hyphenated_BEM', or 'snake_case', or 'camel_case', or a regex pattern
     ignored_types: ['id']
 
   Shorthand:

@@ -28,7 +28,7 @@
     "requireDollarBeforejQueryAssignment": true,
     "requireLineBreakAfterVariableAssignment": true,
     "requireLineFeedAtFileEnd": true,
-    "requireMultipleVarDecl": "onevar",
+    "requireMultipleVarDecl": null,
     "requireOperatorBeforeLineBreak": true,
     "requirePaddingNewLineAfterVariableDeclaration": true,
     "requirePaddingNewLinesAfterBlocks": {
@@ -54,9 +54,11 @@
         "beforeOpeningCurlyBrace": true
     },
 
-    "safeContextKeyword": ["_this", "that", "self"],
+    "safeContextKeyword": ["_this", "that", "self", "me"],
     "validateIndentation": 4,
     "validateLineBreaks": "LF",
+    "disallowMultipleLineStrings": true,
+    "disallowMultipleVarDecl": { "allExcept": ["require", "undefined"] },
     "validateParameterSeparator": ", ",
     "validateQuoteMarks": "'"
 }
