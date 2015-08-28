@@ -12,7 +12,7 @@ linters:
 
   BorderZero:
     enabled: true
-    convention: zero # or `none`
+    convention: zero
 
   ColorKeyword:
     enabled: false
@@ -34,7 +34,7 @@ linters:
 
   ElsePlacement:
     enabled: true
-    style: same_line # or 'new_line'
+    style: same_line
 
   EmptyLineBetweenBlocks:
     enabled: false
@@ -49,11 +49,11 @@ linters:
 
   HexLength:
     enabled: true
-    style: short # or 'long'
+    style: short
 
   HexNotation:
     enabled: true
-    style: lowercase # or 'uppercase'
+    style: lowercase
 
   HexValidation:
     enabled: true
@@ -72,12 +72,12 @@ linters:
   Indentation:
     enabled: false
     allow_non_nested_indentation: false
-    character: space # or 'tab'
+    character: space
     width: 4
 
   LeadingZero:
     enabled: true
-    style: exclude_zero # or 'include_zero'
+    style: exclude_zero
 
   MergeableSelector:
     enabled: true
@@ -86,7 +86,7 @@ linters:
   NameFormat:
     enabled: true
     allow_leading_underscore: false
-    convention: hyphenated_lowercase # or 'camel_case', or 'snake_case', or a regex pattern
+    convention: hyphenated_lowercase
 
   NestingDepth:
     enabled: false
@@ -103,14 +103,14 @@ linters:
   PropertyUnits:
     enabled: true
     global: [
-      'ch', 'em', 'ex', 'rem',                 # Font-relative lengths
-      'cm', 'in', 'mm', 'pc', 'pt', 'px', 'q', # Absolute lengths
-      'vh', 'vw', 'vmin', 'vmax',              # Viewport-percentage lengths
-      'deg', 'grad', 'rad', 'turn',            # Angle
-      'ms', 's',                               # Duration
-      'Hz', 'kHz',                             # Frequency
-      'dpi', 'dpcm', 'dppx',                   # Resolution
-      '%']                                     # Other
+    'ch','em','ex','rem',
+    'cm','in','mm','pc','pt','px','q',
+    'vh','vw','vmin','vmax',
+    'deg','grad','rad','turn',
+    'ms','s',
+    'Hz','kHz',
+    'dpi','dpcm','dppx',
+    '%']
     properties: {}
 
   PropertySortOrder:
@@ -135,12 +135,12 @@ linters:
 
   SelectorFormat:
     enabled: true
-    convention: hyphenated_BEM # or 'strict_BEM', or 'hyphenated_BEM', or 'snake_case', or 'camel_case', or a regex pattern
+    convention: hyphenated_BEM
     ignored_types: ['id']
 
   Shorthand:
     enabled: true
-    allowed_shorthands: [1, 2, 3]
+    allowed_shorthands: [1,2,3]
 
   SingleLinePerProperty:
     enabled: true
@@ -154,14 +154,14 @@ linters:
 
   SpaceAfterPropertyColon:
     enabled: true
-    style: at_least_one_space # 'one_space', or 'no_space', or 'aligned'
+    style: at_least_one_space
 
   SpaceAfterPropertyName:
     enabled: true
 
   SpaceBeforeBrace:
     enabled: true
-    style: space # or 'new_line'
+    style: space
     allow_single_line_padding: false
 
   SpaceBetweenParens:
@@ -170,7 +170,7 @@ linters:
 
   StringQuotes:
     enabled: true
-    style: double_quotes # or single_quotes
+    style: double_quotes
 
   TrailingSemicolon:
     enabled: true

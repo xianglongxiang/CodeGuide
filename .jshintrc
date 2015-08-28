@@ -4,7 +4,10 @@
     "forin": true,
     "freeze": true,
     "globals": {
-
+        "require": true,
+        "module": true,
+        "__uri": true,
+        "__inline":true
     },
     "latedef": true,
     "maxerr": 200,

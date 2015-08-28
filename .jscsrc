@@ -58,7 +58,7 @@
     "validateIndentation": 4,
     "validateLineBreaks": "LF",
     "disallowMultipleLineStrings": true,
-    "disallowMultipleVarDecl": { "allExcept": ["require", "undefined"] },
+    "disallowMultipleVarDecl": false,
     "validateParameterSeparator": ", ",
     "validateQuoteMarks": "'"
 }
