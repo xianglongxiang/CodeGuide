@@ -10,17 +10,38 @@
             <p>[快捷代码] 描述</p>
             <p>snippets的内容，其中占位符语法：${序号:默认值}</p>
         </blockquote>
+        <h3>Console</h3>
         <ul>
             <li>
                 <h4>[cd] console.dir</h4>
                 <p>
-                    {% highlight javascript %}console.dir(${1:obj});{% endhighlight %}
+                    {% highlight javascript %}
+                    console.dir(${1:obj});
+                    {% endhighlight %}
                 </p>
             </li>
             <li>
-                <h4>[mi] new Image</h4>
+                <h4>[cl] console.log</h4>
                 <p>
-                    {% highlight javascript %}new Image().src = '/${1}';{% endhighlight %}
+                    {% highlight javascript %}
+                    console.log(${1:obj});
+                    {% endhighlight %}
+                    ``` javascript
+                    console.log(${1:obj});
+                    ```
+                </p>
+            </li>
+        </ul>
+        <h3>EJS</h3>
+        <ul>
+            <li>
+                <h4>[=fo] &lt;% for %&gt;</h4>
+                <p>
+                    {% highlight javascript %}
+                    <% for (var ${1:i} = ${2:0}, ${3:l} = ${4:arr}.length; ${1:i} < ${3:l}; ++${1:i}) { %>
+                        ${5}
+                    <% } %>
+                    {% endhighlight %}
                 </p>
             </li>
         </ul>
