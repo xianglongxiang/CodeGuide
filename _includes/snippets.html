@@ -15,20 +15,13 @@
             <li>
                 <h4>[cd] console.dir</h4>
                 <p>
-                    {% highlight javascript %}
-                    console.dir(${1:obj});
-                    {% endhighlight %}
+                    {% highlight javascript %}{% include snippets/cd.js %}{% endhighlight %}
                 </p>
             </li>
             <li>
                 <h4>[cl] console.log</h4>
                 <p>
-                    {% highlight javascript %}
-                    console.log(${1:obj});
-                    {% endhighlight %}
-                    ``` javascript
-                    console.log(${1:obj});
-                    ```
+                    {% highlight javascript %}{% include snippets/cl.js %}{% endhighlight %}
                 </p>
             </li>
         </ul>
@@ -37,11 +30,7 @@
             <li>
                 <h4>[=fo] &lt;% for %&gt;</h4>
                 <p>
-                    {% highlight javascript %}
-                    <% for (var ${1:i} = ${2:0}, ${3:l} = ${4:arr}.length; ${1:i} < ${3:l}; ++${1:i}) { %>
-                        ${5}
-                    <% } %>
-                    {% endhighlight %}
+                    {% highlight javascript %}{% include snippets/efo.js %}{% endhighlight %}
                 </p>
             </li>
         </ul>
