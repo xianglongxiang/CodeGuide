@@ -1,0 +1,1 @@
+\$${1:this}.removeClass('${2}');

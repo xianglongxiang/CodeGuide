@@ -1,0 +1,1 @@
+\$${1:doc}.trigger('${2:eventType}'${3});

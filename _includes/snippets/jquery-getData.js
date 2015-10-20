@@ -1,0 +1,1 @@
+var ${1:cid} = \$${2:this}.data('${3:cid}');
