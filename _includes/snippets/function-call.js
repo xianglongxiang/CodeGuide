@@ -1,1 +1,1 @@
-${1:functionName}.call(${2:context}, ${3:arguments});
+call(${1:context}, ${2:arguments});

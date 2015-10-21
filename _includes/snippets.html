@@ -61,7 +61,7 @@
                 </p>
             </li>
             <li>
-                <h4>[fo] for</h4>
+                <h4>[for] for</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/for-native.js %}{% endhighlight %}
                 </p>
@@ -70,7 +70,7 @@
         <h3>Function</h3>
         <ul>
             <li>
-                <h4>[fn] function</h4>
+                <h4>[fn][fun] function</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/function.js %}{% endhighlight %}
                 </p>
@@ -82,13 +82,13 @@
                 </p>
             </li>
             <li>
-                <h4>[apply] apply</h4>
+                <h4>[ap] apply</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/function-apply.js %}{% endhighlight %}
                 </p>
             </li>
             <li>
-                <h4>[call] call</h4>
+                <h4>[ca] call</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/function-call.js %}{% endhighlight %}
                 </p>
@@ -118,21 +118,27 @@
         <h3>Jquery</h3>
         <ul>
             <li>
-                <h4>[jvt] get &#36;this</h4>
+                <h4>[jvt] var &#36;this = &#36;(this)</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/jquery-getThis.js %}{% endhighlight %}
                 </p>
             </li>
             <li>
-                <h4>[jve] get jquery element</h4>
+                <h4>[jve] var &#36;var = &#36;('var')</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/jquery-getEle.js %}{% endhighlight %}
                 </p>
             </li>
             <li>
-                <h4>[jvd] get data</h4>
+                <h4>[jvd] var d = &#36;d.data('d')</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/jquery-getData.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
+                <h4>[da] data()</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/jquerys-getData.js %}{% endhighlight %}
                 </p>
             </li>
             <li>
@@ -142,9 +148,21 @@
                 </p>
             </li>
             <li>
+                <h4>[ext] extend()</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/jquerys-extend.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
                 <h4>[jat] &#36;.attr</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/jquery-attr.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
+                <h4>[at] attr()</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/jquerys-attr.js %}{% endhighlight %}
                 </p>
             </li>
             <li>
@@ -154,9 +172,21 @@
                 </p>
             </li>
             <li>
+                <h4>[css] css()</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/jquerys-css.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
                 <h4>[jwi] &#36;.width</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/jquery-width.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
+                <h4>[wi] width()</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/jquerys-width.js %}{% endhighlight %}
                 </p>
             </li>
             <li>
@@ -166,9 +196,21 @@
                 </p>
             </li>
             <li>
+                <h4>[he] height()</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/jquerys-height.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
                 <h4>[jsh] &#36;.show</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/jquery-show.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
+                <h4>[sh] show()</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/jquerys-show.js %}{% endhighlight %}
                 </p>
             </li>
             <li>
@@ -178,9 +220,21 @@
                 </p>
             </li>
             <li>
+                <h4>[hi] hide()</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/jquerys-hide.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
                 <h4>[jac] &#36;.addClass</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/jquery-addClass.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
+                <h4>[addC] addClass()</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/jquerys-addClass.js %}{% endhighlight %}
                 </p>
             </li>
             <li>
@@ -190,9 +244,21 @@
                 </p>
             </li>
             <li>
+                <h4>[rem] removeClass()</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/jquerys-removeClass.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
                 <h4>[jon] &#36;.on</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/jquery-on.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
+                <h4>[on] on()</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/jquerys-on.js %}{% endhighlight %}
                 </p>
             </li>
             <li>
@@ -201,13 +267,31 @@
                     {% highlight javascript %}{% include snippets/jquery-trigger.js %}{% endhighlight %}
                 </p>
             </li>
+            <li>
+                <h4>[tri] trigger()</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/jquerys-trigger.js %}{% endhighlight %}
+                </p>
+            </li>
         </ul>
         <h3>MISC</h3>
         <ul>
             <li>
-                <h4>[vs] save context</h4>
+                <h4>[vs] var self = this</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/misc-saveContext.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
+                <h4>[se] self = this</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/misc-saveContext2.js %}{% endhighlight %}
+                </p>
+            </li>
+            <li>
+                <h4>[th] that = this</h4>
+                <p>
+                    {% highlight javascript %}{% include snippets/misc-saveContext3.js %}{% endhighlight %}
                 </p>
             </li>
             <li>
@@ -259,13 +343,13 @@
         <h3>Timer</h3>
         <ul>
             <li>
-                <h4>[st] setTimeout</h4>
+                <h4>[st][setT] setTimeout</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/timer-setTimeout.js %}{% endhighlight %}
                 </p>
             </li>
             <li>
-                <h4>[si] setInterval</h4>
+                <h4>[si][setI] setInterval</h4>
                 <p>
                     {% highlight javascript %}{% include snippets/timer-setInterval.js %}{% endhighlight %}
                 </p>
