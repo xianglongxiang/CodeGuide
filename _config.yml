@@ -1,6 +1,6 @@
-name:          Code Guide by @imweb
+name:
 description:   Standards for developing flexible, durable, and sustainable HTML and CSS, and maintainable JavaScript
-url:           https://github.com/imweb/CodeGuide
+url:           https://github.com/xianglongxiang/CodeGuide
 
 include:       [".editorconfig", ".jscsrc", ".jshintrc", ".csslintrc", ".scss-lint.yml"]
 
